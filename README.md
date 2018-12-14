@@ -1,26 +1,26 @@
 # group-anagrams
 Finds all anagrams in a dictionary.
 
-The program does the following:
-Open a file specified on the command line or read from stdin.
-*Read each line as a word and remove the ‘\n’ from it.
-*Add the word to an existing anagram family or create a new one.
-*Enumerate the anagram families, printing to a specified file or stdout:
-    print the sorted set followed by ‘:’
-    print the number of anagrams followed by ‘\n’
-    print a tab ‘\t’ before each anagram, then anagram, followed by ‘\n’
-*Do not print out anagram families whose size is 1.
-*Clean up all memory data structures and close all files, Detect and handle erroneous command line input.
+The program does the following:<br />
+Open a file specified on the command line or read from stdin.<br />
+*Read each line as a word and remove the ‘\n’ from it.<br />
+*Add the word to an existing anagram family or create a new one.<br />
+*Enumerate the anagram families, printing to a specified file or stdout:<br />
+    *print the sorted set followed by ‘:’<br />
+    *print the number of anagrams followed by ‘\n’<br />
+    *print a tab ‘\t’ before each anagram, then anagram, followed by ‘\n’<br />
+*Do not print out anagram families whose size is 1.<br />
+*Clean up all memory data structures and close all files, Detect and handle erroneous command line input.<br />
 
-Here is an example of expected output in a file:
-a a b e i r : 3
-A b e r i a
-B a e r i a
-B a i e r a
-
-a b e t : 5
-a b e t
-b a t e
-b e a t
-B e t a
-b e t a
+Here is an example of expected output in a file:<br />
+a a b e i r : 3<br />
+A b e r i a<br />
+B a e r i a<br />
+B a i e r a<br />
+<br />
+a b e t : 5<br />
+a b e t<br />
+b a t e<br />
+b e a t<br />
+B e t a<br />
+b e t a<br />
