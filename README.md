@@ -2,7 +2,7 @@
 Finds all anagrams in a dictionary.
 
 The program does the following:
-*Open a file specified on the command line or read from stdin.
+Open a file specified on the command line or read from stdin.
 *Read each line as a word and remove the ‘\n’ from it.
 *Add the word to an existing anagram family or create a new one.
 *Enumerate the anagram families, printing to a specified file or stdout:
